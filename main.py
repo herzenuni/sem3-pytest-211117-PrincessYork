@@ -22,5 +22,5 @@ def make_dict(keys, values):
 
 	return dictionary
 
-
-print(make_dict(keys, values))
+if __name__ == "__main__":
+	print(make_dict(keys, values))
